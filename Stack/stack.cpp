@@ -10,12 +10,12 @@ using namespace std;
 class Stack
 {
 private:
-	int arr[5];
+	int arr[10];
 	int top;
 public:
 	Stack(){ //inititally values of stack is zero(empty)
 		top = -1;
-		for (int i = 1; i < 5; ++i)
+		for (int i = 1; i < 11; ++i)
 		{
 			arr[i]=0;
 		}
@@ -44,7 +44,7 @@ public:
 
 	}
 	bool isfull(){ //check if stack is full or not
-		if (top==5){
+		if (top==9){
 			return true;
 		}
 		else{
@@ -69,7 +69,7 @@ public:
 int main(){
 	//implementation successfull lets check everything is good!
 	Stack sakthi;
-	for (int i = 1; i < 6; ++i)
+	for (int i = 1; i < 11; ++i)
 	{
 		sakthi.push(i);
 	}
