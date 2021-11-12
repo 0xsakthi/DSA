@@ -15,7 +15,7 @@ private:
 public:
 	Stack(){ //inititally values of stack is zero(empty)
 		top = -1;
-		for (int i = 1; i < 11; ++i)
+		for (int i = 0; i < 9; ++i)
 		{
 			arr[i]=0;
 		}
