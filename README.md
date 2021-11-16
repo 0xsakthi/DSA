@@ -4,3 +4,5 @@ Solving Data-structural-Releated-Problems
 *1)reversing the given array(manual method)*
 ## Stacks
 *1)implementation the stack(manual+class) without Using STL*
+##Searching-Algos
+*1)implementation of **Binary Search***
