@@ -2,6 +2,7 @@
 Solving Data-structural-Releated-Problems
 ## Arrays
 *1)reversing the given array(manual method)*
+*2) missing number of array (using n(n+1)/2 formula - sumof(array))*
 ## Stacks and Que
 *1)implementation the stack(manual+class) without Using STL*
 ## Searching-Algos
